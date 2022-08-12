@@ -10,6 +10,5 @@
         </div>
       </template>
     </Suspense>
-    <InputEntry />
   </div>
 </template>
