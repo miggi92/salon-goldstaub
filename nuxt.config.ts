@@ -18,4 +18,7 @@ export default defineNuxtConfig({
     classSuffix: '',
   },
   target: 'static',
+  static: {
+    prefix: 'salon-goldstaub',
+  },
 })
