@@ -19,6 +19,6 @@ export default defineNuxtConfig({
   },
   target: 'static',
   build: {
-    publicPath: 'salon-goldstaub',
+    publicPath: '/salon-goldstaub/',
   },
 })
