@@ -19,6 +19,6 @@ export default defineNuxtConfig({
   },
   target: 'static',
   static: {
-    prefix: 'salon-goldstaub',
+    prefix: true,
   },
 })
