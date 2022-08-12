@@ -18,7 +18,7 @@ export default defineNuxtConfig({
     classSuffix: '',
   },
   target: 'static',
-  static: {
-    prefix: true,
+  build: {
+    publicPath: 'salon-goldstaub',
   },
 })
