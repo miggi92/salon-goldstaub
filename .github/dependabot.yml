@@ -11,8 +11,6 @@ updates:
       - miggi92
     assignees:
       - miggi92
-    labels:
-      - PR-merge
     commit-message:
       prefix: fix
       prefix-development: chore
@@ -24,8 +22,6 @@ updates:
       interval: daily
       time: '00:00'
     open-pull-requests-limit: 10
-    labels:
-      - PR-merge
     reviewers:
       - miggi92
     assignees:
