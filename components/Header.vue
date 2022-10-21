@@ -1,37 +1,25 @@
+<script setup lang="ts">
+const items = [
+    { url: "/", label: "Goldstaub"},
+    { url: "/philosophy", label: "Philosophie"},
+    {url: "/about", label: "Meisterfriseurin"},
+    {url: "/prices", label: "Preise"},
+    {url:"/producrs", label:"Produkte"},
+    {url: "https://www.studiobookr.com/salon-goldstaub-64474", label: "Termin buchen"}
+];
+</script>
+
 <template>
-    <header>
+    <header w-full flex items-center>
         <div>
-            <nav>
-                <NuxtLink to="/">
-                    <div color-salongoldstaub-primary uppercase>
-                         Goldstaub
-                    </div>
-                </NuxtLink>
-                <NuxtLink to="/philosophy">
-                    <div color-salongoldstaub-primary uppercase>
-                        Philosophie
-                    </div>
-                </NuxtLink>                          
-                <NuxtLink to="/about">
-                    <div color-salongoldstaub-primary uppercase>
-                        Meisterfriseurin
-                    </div>
-                </NuxtLink>
-                <NuxtLink to="/prices">
-                    <div color-salongoldstaub-primary uppercase>
-                        Preise
-                    </div>
-                </NuxtLink>
-                <NuxtLink to="/products">
-                    <div color-salongoldstaub-primary uppercase>
-                        Produkte
-                    </div>
-                </NuxtLink>
-                <NuxtLink to="https://www.studiobookr.com/salon-goldstaub-64474" target="_blank">
-                    <div color-salongoldstaub-primary uppercase>
-                        Termine
-                    </div>
-                </NuxtLink>
+            <nav flex gap-8 mx-auto>
+                <div v-for="item in items" :key="item.url" :to="item.url">
+                    <NuxtLink to="/">
+                        <div color-salongoldstaub-primary uppercase>
+                            {{item.label}}
+                        </div>
+                    </NuxtLink>
+                </div>                       
             </nav>
         </div>
     </header>
