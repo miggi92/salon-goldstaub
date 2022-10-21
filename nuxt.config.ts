@@ -1,5 +1,3 @@
-import { defineNuxtConfig } from 'nuxt'
-
 export default defineNuxtConfig({
   modules: [
     '@vueuse/nuxt',
@@ -9,7 +7,6 @@ export default defineNuxtConfig({
   ],
   experimental: {
     reactivityTransform: true,
-    viteNode: false,
   },
   unocss: {
     preflight: true,
@@ -17,7 +14,6 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: '',
   },
-  target: 'static',
   build: {
     publicPath: '/salon-goldstaub/',
   },
