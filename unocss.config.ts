@@ -33,4 +33,11 @@ export default defineConfig({
     transformerDirectives(),
     transformerVariantGroup(),
   ],
+  theme: {
+    colors: {
+      salongoldstaub: {
+        primary: '#eecc00'
+      }
+    }
+  }
 })
