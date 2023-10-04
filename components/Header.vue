@@ -1,3 +1,12 @@
 <template>
-    <h1>Header</h1>
+    <nav >
+        <div>
+          <!-- Header logo -->
+          <div>
+            <Logo />
+          </div>
+          
+        </div>
+
+    </nav>
 </template>
