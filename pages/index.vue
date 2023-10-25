@@ -3,7 +3,7 @@
         <h1>Salon Goldstaub</h1>
 
         <div class="flex">
-            <Logo />
+            <AppLogo />
         </div>
 
 
