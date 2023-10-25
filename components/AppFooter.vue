@@ -100,8 +100,8 @@
 
         <!--Copyright section-->
         <div class="bg-neutral-200 p-6 text-center dark:bg-neutral-700">
-            <span>© 2023 Copyright:</span>
-            <a class="font-semibold text-neutral-600 dark:text-neutral-400" href="https://mgm12.dev/">MGM12</a>
+            <span>© 2023 Copyright: </span>
+            <a class="font-semibold text-primary" href="https://mgm12.dev/">MGM12</a>
         </div>
     </footer>
 </template>
