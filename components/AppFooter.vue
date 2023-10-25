@@ -4,7 +4,7 @@
         <div
             class="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
             <div class="mr-12 hidden lg:block">
-                <span>Folgen Sie uns auf den Sozialen Netzwerken:</span>
+                <span>Folgen Sie uns auf den sozialen Netzwerken:</span>
             </div>
             <!-- Social network icons container -->
             <div class="flex justify-center">
