@@ -26,18 +26,21 @@
 </template>
 
 <script setup lang="ts">
-const title = ref('Salon Goldstaub')
+const { t } = useI18n({
+  useScope: 'local'
+})
+const title = t('title')
 const navItems = [{
-  name: 'Home',
+  name: t('home'),
   path: '/'
 }, {
-  name: 'Leistungen',
+  name: t('services'),
   path: '/services'
 }, {
-  name: 'Über uns',
+  name: t('about'),
   path: '/about'
 }, {
-  name: 'Kontakt',
+  name: t('contact'),
   path: '/contact'
 }]
 </script>
