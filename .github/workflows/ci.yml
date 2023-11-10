@@ -7,6 +7,8 @@ on:
   pull_request:
     branches:
       - main
+env:
+  NUXT_UI_PRO_LICENSE: ${{ secrets.NUXT_UI_PRO_LICENSE }}
 
 jobs:
   ci:
