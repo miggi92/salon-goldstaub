@@ -1,0 +1,6 @@
+---
+title: "Neuigkeiten"
+icon: "🏡"
+---
+
+# Neuigkeiten

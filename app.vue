@@ -6,6 +6,8 @@
 </template>
 
 <script setup lang="ts">
+const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
+
 useHead({
     title: 'Salon Goldstaub',
     meta: [

@@ -6,6 +6,8 @@
     "csstools.postcss",
     "dbaeumer.vscode-eslint",
     "vue.volar",
-    "bradlc.vscode-tailwindcss"
+    "bradlc.vscode-tailwindcss",
+    "nuxt.mdc",
+    "streetsidesoftware.code-spell-checker-german"
   ]
 }
