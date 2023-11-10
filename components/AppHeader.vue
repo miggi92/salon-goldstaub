@@ -21,13 +21,17 @@ const links = [{
   label: "Startseite",
   to: '/'
 }, {
+  label: "Aktuelles",
+  to: '/news'
+}, {
   label: "Leistungen",
   to: '/services'
 }, {
   label: "Über uns",
   to: '/about'
 }, {
-  label: "Kontakt",
-  to: '/contact'
+  label: "Buchungsanfrage",
+  to: 'https://www.studiobookr.com/salon-goldstaub-64474#/',
+  target: "_blank"
 }]
 </script>
