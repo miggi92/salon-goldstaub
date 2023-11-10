@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="grid gap-4 place-content-center">
-            <h1 class="text-primary text-5xl">{{ t('title') }}</h1>
+            <h1 class="text-primary text-5xl">Salon Goldstaub</h1>
             <AppLogo />
         </div>
 
@@ -29,7 +29,4 @@
 </template>
 
 <script setup lang="ts">
-const { t } = useI18n({
-    useScope: 'local'
-})
 </script>

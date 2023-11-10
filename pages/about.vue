@@ -1,5 +1,5 @@
 <template>
-    <h1 class="text-primary text-5xl">{{ t('about') }}</h1>
+    <h1 class="text-primary text-5xl">Über uns</h1>
     <NuxtImg src="/pictures/bild_meisterfriseurin.jpg" alt="Meisterfriseurin" class="m-5" />
     <h2 class="text-primary text-3xl">Meisterfriseurin</h2>
     <div class="grid grid-cols-3 gap-10">
@@ -48,7 +48,4 @@
 </template>
 
 <script setup lang="ts">
-const { t } = useI18n({
-    useScope: 'local'
-})
 </script>

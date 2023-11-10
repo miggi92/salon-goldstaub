@@ -3,9 +3,6 @@
 </template>
 
 <script setup lang="ts">
-const { t } = useI18n({
-    useScope: 'local'
-})
-const title = ref(t('contact'))
+const title = ref("Kontakt")
 </script>
 
