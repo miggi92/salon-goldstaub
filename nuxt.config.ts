@@ -3,9 +3,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: ["@nuxt/ui-pro"],
   modules: ["@nuxt/content", "@nuxt/ui", "@nuxt/image", "@nuxthq/studio"],
-  app: {
-    baseURL: "/salon-goldstaub/",
-  },
   runtimeConfig: {
     public: {
       studioTokens: "",
