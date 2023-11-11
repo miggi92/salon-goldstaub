@@ -1,5 +1,5 @@
 <template>
-    <h1>{{ title }}</h1>
+    <UPageHeader:title="title" />
 </template>
 
 <script setup lang="ts">
