@@ -2,9 +2,14 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: ["@nuxt/ui-pro"],
-  modules: ["@nuxt/content", '@nuxthq/studio', "@nuxt/ui", "@nuxt/image"],
+  modules: ["@nuxt/content", "@nuxthq/studio", "@nuxt/ui", "@nuxt/image"],
   app: {
     baseURL: "/salon-goldstaub/",
+  },
+  runtimeConfig: {
+    public: {
+      studioTokens: "",
+    },
   },
   ui: {
     icons: ["simple-icons", "mdi"],
