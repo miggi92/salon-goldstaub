@@ -3,9 +3,11 @@ title: "Startseite"
 description: "Startseite der Webseite des Salon Goldstaub"
 ---
 
+::div{.flex .w-15}
 ![Goldstaub](/pictures/goldstaub_image.jpg)
+::
 
-# Goldstaub
+# [Goldstaub]{.text-primary}
 
 Bereits im alten Ägypten und in der Antike verwendeten die wohlhabenden Frauen viel Zeit und Geld, um dem jeweiligen Schönheitsideal zu entsprechen und einfach gut auszusehen.
 

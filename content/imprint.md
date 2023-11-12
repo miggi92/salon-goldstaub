@@ -3,7 +3,7 @@ title: "Impressum"
 description: "Impressum der Webseite des Salon Goldstaub"
 ---
 
-## Haftungsausschluss:
+## [Haftungsausschluss]{.text-primary}:
 
 ### Haftung für Inhalte
 
