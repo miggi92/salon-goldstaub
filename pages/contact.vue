@@ -23,7 +23,7 @@ import type { FormError, FormSubmitEvent } from '#ui/types'
 
 const title = ref("Kontakt")
 
-var state: reactive({
+var state = reactive({
     name: "",
     email: ""
 });
