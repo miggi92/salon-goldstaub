@@ -18,7 +18,7 @@
                                     <UButton :to="content._path">Beitrag lesen</UButton>
                                 </div>
                             </template>
-                        </UCard>{{ content._path }}
+                        </UCard>
                     </div>
                 </UPageGrid>
             </ContentQuery>
