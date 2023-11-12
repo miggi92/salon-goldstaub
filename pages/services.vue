@@ -1,5 +1,12 @@
 <template>
-    <UPageHeader :title="title" />
+    <UPage>
+        <UPageHeader :title="title" />
+        <UPageBody prose>
+            <div>
+                <ContentDoc path="/services" />
+            </div>
+        </UPageBody>
+    </UPage>
 </template>
 
 <script setup lang="ts">
