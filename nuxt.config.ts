@@ -19,7 +19,7 @@ export default defineNuxtConfig({
     },
   },
   routeRules: {
-    "/booking": { redirect: bookingURL },
+    "/booking": { redirect: "https://www.studiobookr.com/salon-goldstaub-64474" },
   },
   ui: {
     icons: ["simple-icons", "mdi"],
