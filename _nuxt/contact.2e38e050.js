@@ -1,1 +1,0 @@
-import{d as t,r as o,D as a,b as n,C as r}from"./entry.81cff137.js";const l=t({__name:"contact",setup(c){return o("Kontakt"),(s,_)=>{const e=a('UPageHeader:title="title"');return n(),r(e)}}});export{l as default};
