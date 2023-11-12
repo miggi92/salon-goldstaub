@@ -13,7 +13,7 @@ export const pwa: ModuleOptions = {
     shortcuts: [
       {
         name: "Termin buchen",
-        url: bookingURL,
+        url: "/booking",
         description: "Termin buchen",
         short_name: "Termin buchen",
         icons: [{ src: "/icons/mdi_calendar_clock.png", sizes: "192x192" }],
