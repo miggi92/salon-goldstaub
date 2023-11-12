@@ -1,1 +1,0 @@
-import{_ as n}from"./_plugin-vue_export-helper.c27b6911.js";import{d as o,b as r,c as s,n as t}from"./entry.4dc916e9.js";const a=o({props:{name:{type:String,required:!0}}});function p(e,c,_,m,i,l){return r(),s("span",{class:t(e.name)},null,2)}const d=n(a,[["render",p]]);export{d as _};
