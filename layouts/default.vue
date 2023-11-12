@@ -9,7 +9,7 @@
 </template>
 
 <script setup lang="ts">
-import { appName } from '~/constants'
+import { appName } from '../constants'
 
 const route = useRoute()
 var title = `${appName} - ${route.meta.title}`;

@@ -7,7 +7,7 @@
 </template>
 
 <script setup lang="ts">
-import { appName, appDescription } from '~/constants'
+import { appName, appDescription } from './constants'
 
 useHead({
     title: appName,

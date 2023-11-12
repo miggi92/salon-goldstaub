@@ -1,5 +1,10 @@
 import type { ModuleOptions } from "@vite-pwa/nuxt";
-import { appDescription, appName, appShortName, bookingURL } from "~/constants";
+import {
+  appDescription,
+  appName,
+  appShortName,
+  bookingURL,
+} from "../constants";
 
 export const pwa: ModuleOptions = {
   registerType: "autoUpdate",
