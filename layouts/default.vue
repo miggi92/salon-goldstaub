@@ -1,7 +1,7 @@
 <template>
     <div>
         <AppHeader />
-        <div v-show="$pwa.needRefresh">
+        <div v-show="needRefresh">
             <span>
                 Neue Inhalte verfügbar. Bitte laden Sie die Seite neu.
             </span>
@@ -19,6 +19,7 @@
 <script setup lang="ts">
 import { appName } from '../constants'
 const { $pwa } = useNuxtApp()
+const needRefresh = $pwa?.needRefresh || false;
 
 const route = useRoute()
 var title = `${appName} - ${route.meta.title}`;
