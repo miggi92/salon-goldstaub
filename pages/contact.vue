@@ -26,14 +26,14 @@ const title = ref("Kontakt")
 var state: reactive({
     name: "",
     email: ""
-})
+});
 
 const schema = computed(() => {
     return {
         email: { required, email },
         name: { required },
     }
-})
+});
 
 async function onSubmit(event: FormSubmitEvent<any>) {
     // Do something with data
