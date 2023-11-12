@@ -14,11 +14,11 @@
                             <p>{{ content.description }}</p>
 
                             <template #footer>
-                                    <div class="flex-auto">
-                                        <UButton :to="content._path">Beitrag lesen</UButton>
-                                    </div>
+                                <div class="flex-auto">
+                                    <UButton :to="content._path">Beitrag lesen</UButton>
+                                </div>
                             </template>
-                        </UCard>
+                        </UCard>{{ content._path }}
                     </div>
                 </UPageGrid>
             </ContentQuery>

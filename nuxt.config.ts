@@ -1,4 +1,5 @@
 import { pwa } from "./config/pwa";
+import { content } from "./config/content";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -19,6 +20,6 @@ export default defineNuxtConfig({
   ui: {
     icons: ["simple-icons", "mdi"],
   },
-  content: {},
+  content,
   pwa,
 });
