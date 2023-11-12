@@ -18,19 +18,21 @@
 </template>
 
 <script setup lang="ts">
-import { string, objectAsync, email, minLength, type Input } from 'valibot'
+import { email, required } from '@vuelidate/validators'
 import type { FormError, FormSubmitEvent } from '#ui/types'
 
 const title = ref("Kontakt")
 
-var state: {
+var state: reactive({
     name: "",
     email: ""
-}
+})
 
-const schema = objectAsync({
-    email: string([email('Falsche E-Mail-Adresse')]).required('Erforderlich'),
-    name: string().required('Erforderlich'),
+const schema = computed(() => {
+    return {
+        email: { required, email },
+        name: { required },
+    }
 })
 
 type Schema = Input<typeof schema>
