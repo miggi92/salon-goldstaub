@@ -8,7 +8,7 @@
                 </UFormGroup>7
                 7
                 <UFormGroup label="E-Mail" name="email">
-                    <UInput v-model="state.name" />
+                    <UInput v-model="state.email" type="email" />
                 </UFormGroup>
 
                 <UButton type="submit" label="Abschicken" icon="i-mdi-email" />
