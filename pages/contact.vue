@@ -1,5 +1,5 @@
 <template>
-    <UPageHeader:title="title" />
+    <UPageHeader :title="title" />
 </template>
 
 <script setup lang="ts">
