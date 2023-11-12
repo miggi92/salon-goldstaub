@@ -1,1 +1,0 @@
-import{d as t,r as o,C as a,b as n,D as r}from"./entry.4a4c4a67.js";const l=t({__name:"contact",setup(c){return o("Kontakt"),(s,_)=>{const e=a('UPageHeader:title="title"');return n(),r(e)}}});export{l as default};
