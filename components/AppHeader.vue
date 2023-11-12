@@ -17,6 +17,8 @@
 </template>
 
 <script setup lang="ts">
+import { bookingURL } from '~/constants';
+
 const links = [{
   label: "Startseite",
   to: '/'
@@ -31,7 +33,7 @@ const links = [{
   to: '/about'
 }, {
   label: "Buchungsanfrage",
-  to: 'https://www.studiobookr.com/salon-goldstaub-64474#/',
+  to: bookingURL,
   target: "_blank"
 }]
 </script>

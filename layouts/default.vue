@@ -9,10 +9,17 @@
 </template>
 
 <script setup lang="ts">
+import { appName } from '~/constants'
+
 const route = useRoute()
-console.log(route)
+var title = `${appName} - ${route.meta.title}`;
+
+if (!route.meta.title) {
+    title = appName;
+}
+
 
 useHead({
-    meta: [{ property: 'og:title', content: `Salon Goldstaub - ${route.meta.title}` }]
+    meta: [{ property: 'og:title', content: title }]
 })
 </script>

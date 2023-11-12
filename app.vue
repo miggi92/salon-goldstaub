@@ -7,14 +7,14 @@
 </template>
 
 <script setup lang="ts">
-const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
+import { appName, appDescription } from '~/constants'
 
 useHead({
-    title: 'Salon Goldstaub',
+    title: appName,
     meta: [
         {
             name: 'description',
-            content: 'Salon Goldstaub'
+            content: appDescription
         }
     ]
 })
