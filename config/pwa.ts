@@ -30,6 +30,8 @@ export const pwa: ModuleOptions = {
     short_name: appShortName,
     description: appDescription,
     theme_color: "#FFBF00",
+    background_color: "#ffffff",
+    start_url: "/",
     lang: "de",
     icons: [
       {
