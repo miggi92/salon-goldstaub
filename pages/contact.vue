@@ -10,6 +10,9 @@
                     <UFormGroup label="E-Mail" name="email">
                         <UInput v-model="state.email" type="email" />
                     </UFormGroup>
+                    <UFormGroup label="Nachricht" name="message">
+                        <UTextarea v-model="state.message" />
+                    </UFormGroup>
 
                     <UButton type="submit" label="Abschicken" icon="i-mdi-email" />
                 </UForm>
@@ -26,13 +29,15 @@ const title = ref("Kontakt")
 
 var state = reactive({
     name: "",
-    email: ""
+    email: "",
+    message: ""
 });
 
 const schema = computed(() => {
     return {
         email: { required, email },
         name: { required },
+        message: { required }
     }
 });
 
