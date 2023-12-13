@@ -9,9 +9,11 @@
             <UButton click="$pwa.updateServiceWorker()" label="Neu laden" icon="i-mdi-refresh" />
 
         </div>
-        <div class="ml-5 mr-5">
-            <slot />
-        </div>
+        <UContainer>
+            <div>
+                <slot />
+            </div>
+        </UContainer>
         <AppFooter />
     </div>
 </template>
