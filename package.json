@@ -16,7 +16,7 @@
     "@nuxthq/studio": "^1.0.4",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@vite-pwa/nuxt": "^0.6.0",
-    "nuxt": "^3.8.0",
+    "nuxt": "^3.11.1",
     "vue": "^3.3.7",
     "vue-router": "^4.2.5"
   },
