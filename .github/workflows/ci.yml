@@ -26,7 +26,7 @@ jobs:
       - name: Setup pnpm env 🏗
         uses: pnpm/action-setup@v3.0.0
         with:
-          version: 7
+          version: latest
 
       - name: Setup node env 🏗
         uses: actions/setup-node@v4
