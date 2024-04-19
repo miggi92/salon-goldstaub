@@ -5,9 +5,9 @@ const links = [{
   label: 'Startseite',
   to: '/',
 }, {
-  label: 'Aktuelles',
-  to: '/news',
-}, {
+//   label: 'Aktuelles',
+//   to: '/news',
+// }, {
   label: 'Leistungen',
   to: '/services',
 }, {

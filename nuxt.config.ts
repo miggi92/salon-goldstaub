@@ -18,7 +18,7 @@ export default defineNuxtConfig({
     },
   },
   ui: {
-    icons: ['simple-icons', 'mdi'],
+    icons: ['simple-icons', 'mdi', 'streamline', 'game-icons'],
   },
   content,
   pwa,

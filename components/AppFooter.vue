@@ -17,7 +17,7 @@ const links = [{
 <template>
   <UFooter :links="links">
     <template #left>
-      Copyright © 2023 - {{ new Date().getFullYear() }} <ULink to="" class="text-primary">
+      Copyright © 2023 - {{ new Date().getFullYear() }} <ULink to="https://mgm12.dev" class="text-primary">
         MGM12
       </ULink>
     </template>
