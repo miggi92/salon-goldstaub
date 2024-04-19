@@ -6,4 +6,6 @@ await navigateTo(bookingURL, {
 })
 </script>
 
-<template></template>
+<template>
+  <div />
+</template>

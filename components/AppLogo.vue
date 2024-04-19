@@ -1,5 +1,4 @@
 <script setup>
-const img = useImage()
 </script>
 
 <template>

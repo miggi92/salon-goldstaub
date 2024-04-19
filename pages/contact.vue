@@ -20,6 +20,7 @@ const schema = computed(() => {
 
 async function onSubmit(event: FormSubmitEvent<any>) {
   // Do something with data
+  // eslint-disable-next-line no-console
   console.log(event.data)
 }
 </script>

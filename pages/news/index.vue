@@ -4,7 +4,7 @@
     <UPageBody>
       <ContentQuery v-slot="{ data }" path="/news" :sort="{ date: -1 }">
         <UPageGrid>
-          <div v-for="(content, index) in data">
+          <div v-for="(content, index) in data" :key="content.id">
             <UCard :key="index">
               <template #header>
                 <UPageHeader
