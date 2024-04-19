@@ -1,7 +1,7 @@
 {
   "name": "nuxt-app",
-  "private": true,
   "type": "module",
+  "private": true,
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -12,18 +12,6 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
-  "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "@antfu/eslint-config": "^2.14.0",
-    "@nuxt/ui": "^2.15.2",
-    "@nuxthq/studio": "^1.0.13",
-    "@nuxtjs/tailwindcss": "^6.12.0",
-    "@vite-pwa/nuxt": "^0.6.0",
-    "nuxt": "^3.11.2",
-    "vue": "^3.4.23",
-    "vue-router": "^4.3.2",
-    "eslint": "^9.0.0"
-  },
   "dependencies": {
     "@iconify-json/mdi": "^1.1.66",
     "@iconify-json/simple-icons": "^1.1.99",
@@ -32,6 +20,18 @@
     "@nuxt/ui-pro": "^1.1.0",
     "@vite-pwa/assets-generator": "^0.2.4",
     "@vuelidate/core": "^2.0.3",
-    "@vuelidate/validators": "^2.0.4"  
+    "@vuelidate/validators": "^2.0.4"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.14.0",
+    "@nuxt/devtools": "latest",
+    "@nuxt/ui": "^2.15.2",
+    "@nuxthq/studio": "^1.0.13",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "@vite-pwa/nuxt": "^0.6.0",
+    "eslint": "^9.0.0",
+    "nuxt": "^3.11.2",
+    "vue": "^3.4.23",
+    "vue-router": "^4.3.2"
   }
 }

@@ -1,71 +1,70 @@
-import type { ModuleOptions } from "@vite-pwa/nuxt";
+import type { ModuleOptions } from '@vite-pwa/nuxt'
 import {
   appDescription,
   appName,
   appShortName,
-  bookingURL,
-} from "../constants";
+} from '../constants'
 
 export const pwa: ModuleOptions = {
-  registerType: "autoUpdate",
+  registerType: 'autoUpdate',
   manifest: {
-    categories: ["hair_salon", "beauty_salon", "hairdresser", "hair_salon"],
+    categories: ['hair_salon', 'beauty_salon', 'hairdresser', 'hair_salon'],
     shortcuts: [
       {
-        name: "Termin buchen",
-        url: "/booking",
-        description: "Termin buchen",
-        short_name: "Termin buchen",
-        icons: [{ src: "/icons/mdi_calendar_clock.png", sizes: "192x192" }],
+        name: 'Termin buchen',
+        url: '/booking',
+        description: 'Termin buchen',
+        short_name: 'Termin buchen',
+        icons: [{ src: '/icons/mdi_calendar_clock.png', sizes: '192x192' }],
       },
       {
-        name: "Aktuelles",
-        url: "/news",
-        description: "Aktuelle Neuigkeiten",
-        short_name: "Aktuelles",
-        icons: [{ src: "/icons/mdi_feed.png", sizes: "192x192" }],
+        name: 'Aktuelles',
+        url: '/news',
+        description: 'Aktuelle Neuigkeiten',
+        short_name: 'Aktuelles',
+        icons: [{ src: '/icons/mdi_feed.png', sizes: '192x192' }],
       },
     ],
     name: appName,
     short_name: appShortName,
     description: appDescription,
-    theme_color: "#FFBF00",
-    background_color: "#ffffff",
-    start_url: "/",
-    lang: "de",
+    theme_color: '#FFBF00',
+    background_color: '#ffffff',
+    start_url: '/',
+    lang: 'de',
     icons: [
       {
-        src: "pwa-64x64.png",
-        sizes: "64x64",
-        type: "image/png",
+        src: 'pwa-64x64.png',
+        sizes: '64x64',
+        type: 'image/png',
       },
       {
-        src: "pwa-192x192.png",
-        sizes: "192x192",
-        type: "image/png",
+        src: 'pwa-192x192.png',
+        sizes: '192x192',
+        type: 'image/png',
       },
       {
-        src: "pwa-512x512.png",
-        sizes: "512x512",
-        type: "image/png",
+        src: 'pwa-512x512.png',
+        sizes: '512x512',
+        type: 'image/png',
       },
       {
-        src: "maskable-icon-512x512.png",
-        sizes: "512x512",
-        type: "image/png",
-        purpose: "any maskable",
+        src: 'maskable-icon-512x512.png',
+        sizes: '512x512',
+        type: 'image/png',
+        purpose: 'any maskable',
       },
       {
-        src: "apple-touch-icon-180x180.png",
-        sizes: "180x180",
-        type: "image/png",
-        purpose: "any maskable",
+        src: 'apple-touch-icon-180x180.png',
+        sizes: '180x180',
+        type: 'image/png',
+        purpose: 'any maskable',
       },
     ],
   },
   workbox: {
-    navigateFallback: "/",
-    globPatterns: ["**/*.{js,css,html,png,svg,ico}"],
+    navigateFallback: '/',
+    globPatterns: ['**/*.{js,css,html,png,svg,ico}'],
   },
   client: {
     installPrompt: true,
@@ -74,6 +73,6 @@ export const pwa: ModuleOptions = {
     enabled: true,
     suppressWarnings: true,
     navigateFallbackAllowlist: [/^\/$/],
-    type: "module",
+    type: 'module',
   },
-};
+}

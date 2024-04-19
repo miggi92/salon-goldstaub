@@ -1,3 +1,3 @@
 <template>
-        <UPageHeader title="Datenschutz" />
+  <UPageHeader title="Datenschutz" />
 </template>

@@ -1,22 +1,21 @@
-<template>
-    <NuxtLayout>
-        <NuxtLoadingIndicator />
-        <VitePwaManifest />
-        <NuxtPage />
-    </NuxtLayout>
-</template>
-
 <script setup lang="ts">
-import { appName, appDescription } from './constants'
+import { appDescription, appName } from './constants'
 
 useHead({
-    title: appName,
-    meta: [
-        {
-            name: 'description',
-            content: appDescription
-        }
-    ]
+  title: appName,
+  meta: [
+    {
+      name: 'description',
+      content: appDescription,
+    },
+  ],
 })
 </script>
 
+<template>
+  <NuxtLayout>
+    <NuxtLoadingIndicator />
+    <VitePwaManifest />
+    <NuxtPage />
+  </NuxtLayout>
+</template>

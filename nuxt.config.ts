@@ -1,26 +1,25 @@
-import { pwa } from "./config/pwa";
-import { content } from "./config/content";
-import { bookingURL } from "./constants";
+import { pwa } from './config/pwa'
+import { content } from './config/content'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  extends: ["@nuxt/ui-pro"],
+  extends: ['@nuxt/ui-pro'],
   modules: [
-    "@nuxt/content",
-    "@nuxt/ui",
-    "@nuxt/image",
-    "@nuxthq/studio",
-    "@vite-pwa/nuxt",
+    '@nuxt/content',
+    '@nuxt/ui',
+    '@nuxt/image',
+    '@nuxthq/studio',
+    '@vite-pwa/nuxt',
   ],
   runtimeConfig: {
     public: {
-      studioTokens: "",
+      studioTokens: '',
     },
   },
   ui: {
-    icons: ["simple-icons", "mdi"],
+    icons: ['simple-icons', 'mdi'],
   },
   content,
   pwa,
-});
+})

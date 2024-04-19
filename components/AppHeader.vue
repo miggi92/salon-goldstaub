@@ -1,3 +1,25 @@
+<script setup lang="ts">
+import { bookingURL } from '~/constants'
+
+const links = [{
+  label: 'Startseite',
+  to: '/',
+}, {
+  label: 'Aktuelles',
+  to: '/news',
+}, {
+  label: 'Leistungen',
+  to: '/services',
+}, {
+  label: 'Über uns',
+  to: '/about',
+}, {
+  label: 'Buchungsanfrage',
+  to: bookingURL,
+  target: '_blank',
+}]
+</script>
+
 <template>
   <UHeader :links="links">
     <template #logo>
@@ -15,25 +37,3 @@
     </template>
   </UHeader>
 </template>
-
-<script setup lang="ts">
-import { bookingURL } from '~/constants';
-
-const links = [{
-  label: "Startseite",
-  to: '/'
-}, {
-  label: "Aktuelles",
-  to: '/news'
-}, {
-  label: "Leistungen",
-  to: '/services'
-}, {
-  label: "Über uns",
-  to: '/about'
-}, {
-  label: "Buchungsanfrage",
-  to: bookingURL,
-  target: "_blank"
-}]
-</script>
