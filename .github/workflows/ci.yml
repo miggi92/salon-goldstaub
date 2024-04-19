@@ -17,7 +17,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [18]
+        node: [20]
 
     steps:
       - name: Checkout 🛎
@@ -33,20 +33,13 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
           check-latest: true
-
-      - name: Cache node_modules 📦
-        uses: actions/cache@v4.0.2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+          cache: 'pnpm'
 
       - name: Install dependencies 👨🏻‍💻
         run: pnpm install
 
-      # - name: Run linter 👀
-      #   run: npm run lint
+      - name: Run linter 👀
+        run: npm run lint
 
       # - name: Run tests 🧪
       #   run: npm run test
