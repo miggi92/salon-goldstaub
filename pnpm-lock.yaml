@@ -11,6 +11,9 @@ dependencies:
   '@iconify-json/simple-icons':
     specifier: ^1.1.99
     version: 1.1.99
+  '@iconify-json/streamline':
+    specifier: ^1.1.8
+    version: 1.1.8
   '@nuxt/content':
     specifier: ^2.12.1
     version: 2.12.1(nuxt@3.11.2)(rollup@2.79.1)(vue@3.4.23)
@@ -1774,6 +1777,12 @@ packages:
 
   /@iconify-json/simple-icons@1.1.99:
     resolution: {integrity: sha512-/csVihX/ztkl2j4Vk4JoEJv8DdQHrZafzC5QHe21Y+ztuVglvavjb4yWEn9KQHTitLH2fIMnP8+RSTxu5kdmtw==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: false
+
+  /@iconify-json/streamline@1.1.8:
+    resolution: {integrity: sha512-9G9y1BYgh3VTZdE8CPUVSfzjHL39/PkkdPpyVCeWYZ64flyPEEBMeRz4YyoOU8A8MMTUj2zCq9GcsLpZb9Yg1Q==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: false
