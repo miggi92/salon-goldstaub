@@ -8,13 +8,16 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "generate-pwa-assets": "pwa-assets-generator --preset minimal public/logo.svg"
+    "generate-pwa-assets": "pwa-assets-generator --preset minimal public/logo.svg",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix --ext .ts,.js,.mjs,.cjs ."
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxt/ui": "^2.15.1",
     "@nuxthq/studio": "^1.0.13",
     "@nuxtjs/tailwindcss": "^6.11.4",
+    "@nuxt/eslint-config": "^0.3.1",
     "@vite-pwa/nuxt": "^0.6.0",
     "nuxt": "^3.11.1",
     "vue": "^3.4.21",
@@ -28,6 +31,7 @@
     "@nuxt/ui-pro": "^1.1.0",
     "@vite-pwa/assets-generator": "^0.2.4",
     "@vuelidate/core": "^2.0.3",
-    "@vuelidate/validators": "^2.0.4"
+    "@vuelidate/validators": "^2.0.4",
+    "eslint": "^9.0.0"
   }
 }
