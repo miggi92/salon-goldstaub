@@ -1,0 +1,1 @@
+import{at as C,x as w,B as e,au as t,V as x,av as y,aw as A}from"./CRoGywK4.js";const d=(n,c,p,u,g=!1)=>{const i=C(),a=w(),f=e(()=>{var r;const s=t(c),l=t(p),o=t(u);return x((s==null?void 0:s.strategy)||((r=a.ui)==null?void 0:r.strategy),o?{wrapper:o}:{},s||{},g?y(a.ui,n,{}):{},l||{})}),m=e(()=>A(i,["class"]));return{ui:f,attrs:m}};export{d as u};
