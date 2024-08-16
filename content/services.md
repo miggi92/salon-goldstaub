@@ -15,7 +15,3 @@ description: "Leistungen des Salon Goldstaub"
 - Seiten schneiden
 - Shading
 - Maschinen Haarschnitt
-
-## [Kinder]{.text-primary}
-
-- Haarschnitt
