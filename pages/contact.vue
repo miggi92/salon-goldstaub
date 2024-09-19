@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { email, required } from '@vuelidate/validators'
 import type { FormSubmitEvent } from '#ui/types'
+import { email, required } from '@vuelidate/validators'
 
 const title = ref('Kontakt')
 

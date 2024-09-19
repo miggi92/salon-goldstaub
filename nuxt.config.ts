@@ -1,5 +1,5 @@
-import { pwa } from './config/pwa'
 import { content } from './config/content'
+import { pwa } from './config/pwa'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
