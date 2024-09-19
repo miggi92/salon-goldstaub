@@ -1,1 +1,0 @@
-import{ar as C,s as w,z as e,as as t,S as y,at as A,au as d}from"./DPew018Q.js";const z=(n,c,p,u,g=!1)=>{const i=C(),a=w(),f=e(()=>{var r;const s=t(c),l=t(p),o=t(u);return y((s==null?void 0:s.strategy)||((r=a.ui)==null?void 0:r.strategy),o?{wrapper:o}:{},s||{},g?A(a.ui,n,{}):{},l||{})}),m=e(()=>d(i,["class"]));return{ui:f,attrs:m}};export{z as u};
