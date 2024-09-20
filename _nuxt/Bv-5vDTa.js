@@ -1,0 +1,1 @@
+import{at as C,s as w,z as e,au as t,S as y,av as A,aw as d}from"./Do0M-HLG.js";const x=(n,c,p,u,g=!1)=>{const i=C(),a=w(),f=e(()=>{var r;const s=t(c),l=t(p),o=t(u);return y((s==null?void 0:s.strategy)||((r=a.ui)==null?void 0:r.strategy),o?{wrapper:o}:{},s||{},g?A(a.ui,n,{}):{},l||{})}),m=e(()=>d(i,["class"]));return{ui:f,attrs:m}};export{x as u};
