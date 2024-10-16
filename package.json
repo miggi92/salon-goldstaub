@@ -27,7 +27,7 @@
     "@vuelidate/validators": "^2.0.4"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.7.3",
+    "@antfu/eslint-config": "^3.8.0",
     "@nuxt/devtools": "latest",
     "@nuxt/ui": "^2.18.7",
     "@nuxthq/studio": "^2.1.1",
