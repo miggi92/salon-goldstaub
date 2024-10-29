@@ -30,7 +30,7 @@
     "@antfu/eslint-config": "^3.8.0",
     "@nuxt/devtools": "latest",
     "@nuxt/ui": "^2.18.7",
-    "@nuxthq/studio": "^2.2.0",
+    "@nuxthq/studio": "^2.2.1",
     "@nuxtjs/tailwindcss": "^6.12.2",
     "@vite-pwa/nuxt": "^0.10.5",
     "eslint": "^9.13.0",
