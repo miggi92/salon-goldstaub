@@ -2,8 +2,16 @@ title: Startseite
 description: Startseite der Webseite des Salon Goldstaub
 hero:
   title: Salon Goldstaub
-  description: 'Bereits im alten Ägypten und in der Antike verwendeten die wohlhabenden Frauen viel Zeit und Geld, um dem jeweiligen Schönheitsideal zu entsprechen und einfach gut auszusehen. Schon damals galt Gold, das edelste aller Metalle, als kostbare Kosmetikzutat. Gesicht und Dekolleté, bestäubt mit feinstem Goldstaub, verliehen dem Teint einen zauberhaften Schimmer, der die Haut jünger und glatter aussehen ließ. Dezent im Haar verteilt, schuf Goldstaub glanzvolle Reflektionen, die seiner Verwenderin die Aura einer Göttin verliehen. Ein glanzvoller Auftritt und bewundernde Blicke waren garantiert. Genau wie heute, nach einem Besuch im Salon Goldstaub. Herzlich willkommen. Mit unseren Produkten und unserer Erfahrung schaffen wir glänzende Ergebnisse – wenn Sie möchten auch mit der Anmutung von Goldstaub.'
+  description: 'Der Name ist Programm: Bei uns erstrahlt Ihr Haar in neuem Glanz. Ob  schimmernde Colorationen,  voluminöse Stylings oder  gesunde Pflege – wir setzen Ihre Wünsche gekonnt um.<br/>Erleben Sie  exklusiven Service und  individuelle Beratung in einem  stilvollen Ambiente.<br/><br/>Buchen Sie jetzt Ihren Termin online!'
   image: /pictures/goldstaub_image.jpg
   links:
     - label: Termin vereinbaren
-      link: /booking
+      to: https://www.studiobookr.com/salon-goldstaub-64474#/
+      size: lg
+      icon: i-heroicons-calendar
+      target: '_blank'
+    - label: Instagram
+      to: https://www.instagram.com/salongoldstaub/
+      size: lg
+      icon: i-simple-icons-instagram
+      target: '_blank'
