@@ -1,1 +1,0 @@
-import{au as C,s as w,z as e,av as t,S as x,aw as y,ax as A}from"./DYR_Jkrw.js";const v=(n,c,p,u,g=!1)=>{const i=C(),a=w(),f=e(()=>{var r;const s=t(c),l=t(p),o=t(u);return x((s==null?void 0:s.strategy)||((r=a.ui)==null?void 0:r.strategy),o?{wrapper:o}:{},s||{},g?y(a.ui,n,{}):{},l||{})}),m=e(()=>A(i,["class"]));return{ui:f,attrs:m}};export{v as u};
