@@ -16,5 +16,6 @@
         "antfu.iconify"
       ]
     }
-  }
+  },
+  "postCreateCommand": "pnpm i"
 }
