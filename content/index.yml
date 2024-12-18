@@ -9,9 +9,9 @@ hero:
       to: https://www.studiobookr.com/salon-goldstaub-64474#/
       size: lg
       icon: i-heroicons-calendar
-      target: '_blank'
+      target: _blank
     - label: Instagram
       to: https://www.instagram.com/salongoldstaub/
       size: lg
       icon: i-simple-icons-instagram
-      target: '_blank'
+      target: _blank
