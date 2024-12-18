@@ -1,1 +1,0 @@
-import{_ as o}from"./Drt0Pjfr.js";import{_ as r}from"./DlAUqK2U.js";import{G as c,c as e}from"./DZ6rfqJV.js";import"./C_pcM1Iq.js";import"./aMoMu6YL.js";import"./EG2NhLo0.js";import"./iUb9Oz6z.js";import"./Bacrq71E.js";import"./BtA34Bjq.js";const m={};function a(i,n){const t=o;return e(),c(t,{title:"Datenschutz"})}const k=r(m,[["render",a]]);export{k as default};
