@@ -1,0 +1,23 @@
+
+title: "Leistungen"
+description: "Leistungen des Salon Goldstaub"
+damen:
+  title: "Damen"
+  cards:
+    - title: "Trijuven Haarverjüngung"
+      description: ""
+    - title: "Waschen, Schneiden, Föhnen"
+      description: ""
+    - title: "Pflege intensiv"
+      description: ""
+herren:
+  title: "Herren"
+  cards:
+    - title: "Schnitt incl. Styling und Beratung"
+      description: ""
+    - title: "Seiten schneiden"
+      description: ""
+    - title: "Shading"
+      description: ""
+    - title: "Maschinen Haarschnitt"
+      description: ""
