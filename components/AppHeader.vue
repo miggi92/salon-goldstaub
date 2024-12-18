@@ -14,7 +14,7 @@ const links = [{
   label: 'Über uns',
   to: '/about',
 }, {
-  label: 'Buchungsanfrage',
+  label: 'Termin vereinbaren',
   to: bookingURL,
   target: '_blank',
 }]
