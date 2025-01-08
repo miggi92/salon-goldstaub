@@ -1,0 +1,1 @@
+import{aw as C,s as w,z as e,ax as t,I as y,ay as x,az as z}from"./fntxPvSH.js";const I=(n,c,p,u,g=!1)=>{const i=C(),a=w(),f=e(()=>{var r;const s=t(c),l=t(p),o=t(u);return y((s==null?void 0:s.strategy)||((r=a.ui)==null?void 0:r.strategy),o?{wrapper:o}:{},s||{},g?x(a.ui,n,{}):{},l||{})}),m=e(()=>z(i,["class"]));return{ui:f,attrs:m}};export{I as u};

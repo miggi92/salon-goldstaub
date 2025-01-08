@@ -1,1 +1,0 @@
-import{d as a,S as n,c as o,e as s,U as r,V as _}from"./ZDq4O9Uf.js";const l=a({__name:"booking",async setup(c){let e,t;return[e,t]=n(()=>r(_,{external:!0})),await e,t(),(i,p)=>(o(),s("div"))}});export{l as default};
