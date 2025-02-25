@@ -20,7 +20,8 @@ jobs:
         with:
           node-version: lts/*
           cache: pnpm
-      - run: pnpm install --global pnpm
+      - name: Setup pnpm
+        run: pnpm setup
       - run: pnpm install
       - name: Fix lint issues
         run: pnpm run lint:fix
