@@ -28,7 +28,7 @@ importers:
         version: 1.9.0(db0@0.3.1)(ioredis@5.6.0)(magicast@0.3.5)(rollup@4.34.9)
       '@nuxt/ui-pro':
         specifier: ^1.7.1
-        version: 1.7.1(change-case@5.4.4)(magicast@0.3.5)(rollup@4.34.9)(typescript@5.7.2)(vite@6.2.1(@types/node@22.10.2)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))
+        version: 1.7.1(change-case@5.4.4)(magicast@0.3.5)(typescript@5.7.2)(vite@6.2.1(@types/node@22.10.2)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))
       '@vite-pwa/assets-generator':
         specifier: ^0.2.6
         version: 0.2.6
@@ -47,13 +47,13 @@ importers:
         version: 2.2.1(rollup@4.34.9)(vite@6.2.1(@types/node@22.10.2)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))
       '@nuxt/ui':
         specifier: ^2.21.1
-        version: 2.21.1(change-case@5.4.4)(magicast@0.3.5)(rollup@4.34.9)(typescript@5.7.2)(vite@6.2.1(@types/node@22.10.2)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))
+        version: 2.21.1(change-case@5.4.4)(magicast@0.3.5)(typescript@5.7.2)(vite@6.2.1(@types/node@22.10.2)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))
       '@nuxthq/studio':
         specifier: ^2.2.1
         version: 2.2.1(magicast@0.3.5)(rollup@4.34.9)
       '@nuxtjs/tailwindcss':
-        specifier: ^6.13.1
-        version: 6.13.1(magicast@0.3.5)(rollup@4.34.9)
+        specifier: ^6.13.2
+        version: 6.13.2(magicast@0.3.5)
       '@vite-pwa/nuxt':
         specifier: ^0.10.6
         version: 0.10.6(@vite-pwa/assets-generator@0.2.6)(magicast@0.3.5)(rollup@4.34.9)(vite@6.2.1(@types/node@22.10.2)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(workbox-build@7.3.0)(workbox-window@7.3.0)
@@ -1152,8 +1152,8 @@ packages:
   '@nuxtjs/mdc@0.9.5':
     resolution: {integrity: sha512-bTnlY+oiW8QsmrLoiYN+rkSYxl7asELlwYeU9QPSkun5BVx7Yd8RajH8I+0QJZiMZzIHaO3LEgf3lzp5Lg6E0A==}
 
-  '@nuxtjs/tailwindcss@6.13.1':
-    resolution: {integrity: sha512-atL2SaPsxLfMTlXUQvr1UpDYdz6ocNOhH35H+t7M++g4r79QiQScJ7XuyyMR9AyBN19lkPA3nw7NXxazXmYxlA==}
+  '@nuxtjs/tailwindcss@6.13.2':
+    resolution: {integrity: sha512-knCmVe1I0div4tWj6f9GRaHX97zqD257gOeG4JIcWsC0yRfoiT34GBAyqK8Sc15qiKKMB/lZK6Z3skQRYRk/1Q==}
 
   '@oxc-parser/binding-darwin-arm64@0.56.5':
     resolution: {integrity: sha512-rj4WZqQVJQgLnGnDu2ciIOC5SqcBPc4x11RN0NwuedSGzny5mtBdNVLwt0+8iB15lIjrOKg5pjYJ8GQVPca5HA==}
@@ -3368,9 +3368,6 @@ packages:
   h3@1.13.0:
     resolution: {integrity: sha512-vFEAu/yf8UMUcB4s43OaDaigcqpQd14yanmOsn+NcRX3/guSKncyE2rOYhq8RIchgJrPSs/QiIddnTTR1ddiAg==}
 
-  h3@1.13.1:
-    resolution: {integrity: sha512-u/z6Z4YY+ANZ05cRRfsFJadTBrNA6e3jxdU+AN5UCbZSZEUwgHiwjvUEe0k1NoQmAvQmETwr+xB5jd7mhCJuIQ==}
-
   h3@1.14.0:
     resolution: {integrity: sha512-ao22eiONdgelqcnknw0iD645qW0s9NnrJHr5OBz4WOMdBdycfSas1EQf1wXRsm+PcB2Yoj43pjBPwqIpJQTeWg==}
 
@@ -4584,9 +4581,6 @@ packages:
 
   pathe@2.0.0:
     resolution: {integrity: sha512-G7n4uhtk9qJt2hlD+UFfsIGY854wpF+zs2bUbQ3CQEUTcn7v25LRsrmurOxTo4bJgjE4qkyshd9ldsEuY9M6xg==}
-
-  pathe@2.0.1:
-    resolution: {integrity: sha512-6jpjMpOth5S9ITVu5clZ7NOgHNsv5vRQdheL9ztp2vZmM6fRbLvyua1tiBIL4lk8SAe3ARzeXEly6siXCjDHDw==}
 
   pathe@2.0.3:
     resolution: {integrity: sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==}
@@ -7907,10 +7901,10 @@ snapshots:
     transitivePeerDependencies:
       - magicast
 
-  '@nuxt/ui-pro@1.7.1(change-case@5.4.4)(magicast@0.3.5)(rollup@4.34.9)(typescript@5.7.2)(vite@6.2.1(@types/node@22.10.2)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))':
+  '@nuxt/ui-pro@1.7.1(change-case@5.4.4)(magicast@0.3.5)(typescript@5.7.2)(vite@6.2.1(@types/node@22.10.2)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))':
     dependencies:
       '@iconify-json/vscode-icons': 1.2.16
-      '@nuxt/ui': 2.21.1(change-case@5.4.4)(magicast@0.3.5)(rollup@4.34.9)(typescript@5.7.2)(vite@6.2.1(@types/node@22.10.2)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))
+      '@nuxt/ui': 2.21.1(change-case@5.4.4)(magicast@0.3.5)(typescript@5.7.2)(vite@6.2.1(@types/node@22.10.2)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))
       '@vueuse/core': 12.8.2(typescript@5.7.2)
       defu: 6.1.4
       git-url-parse: 16.0.1
@@ -7931,7 +7925,6 @@ snapshots:
       - magicast
       - nprogress
       - qrcode
-      - rollup
       - sortablejs
       - supports-color
       - ts-node
@@ -7940,7 +7933,7 @@ snapshots:
       - vite
       - vue
 
-  '@nuxt/ui@2.21.1(change-case@5.4.4)(magicast@0.3.5)(rollup@4.34.9)(typescript@5.7.2)(vite@6.2.1(@types/node@22.10.2)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))':
+  '@nuxt/ui@2.21.1(change-case@5.4.4)(magicast@0.3.5)(typescript@5.7.2)(vite@6.2.1(@types/node@22.10.2)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))':
     dependencies:
       '@headlessui/tailwindcss': 0.2.2(tailwindcss@3.4.17)
       '@headlessui/vue': 1.7.23(vue@3.5.13(typescript@5.7.2))
@@ -7948,7 +7941,7 @@ snapshots:
       '@nuxt/icon': 1.10.3(magicast@0.3.5)(vite@6.2.1(@types/node@22.10.2)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.2))
       '@nuxt/kit': 3.16.0(magicast@0.3.5)
       '@nuxtjs/color-mode': 3.5.2(magicast@0.3.5)
-      '@nuxtjs/tailwindcss': 6.13.1(magicast@0.3.5)(rollup@4.34.9)
+      '@nuxtjs/tailwindcss': 6.13.2(magicast@0.3.5)
       '@popperjs/core': 2.11.8
       '@tailwindcss/aspect-ratio': 0.4.2(tailwindcss@3.4.17)
       '@tailwindcss/container-queries': 0.1.1(tailwindcss@3.4.17)
@@ -7975,7 +7968,6 @@ snapshots:
       - magicast
       - nprogress
       - qrcode
-      - rollup
       - sortablejs
       - supports-color
       - ts-node
@@ -8113,25 +8105,23 @@ snapshots:
       - magicast
       - supports-color
 
-  '@nuxtjs/tailwindcss@6.13.1(magicast@0.3.5)(rollup@4.34.9)':
+  '@nuxtjs/tailwindcss@6.13.2(magicast@0.3.5)':
     dependencies:
-      '@nuxt/kit': 3.15.1(magicast@0.3.5)(rollup@4.34.9)
-      autoprefixer: 10.4.20(postcss@8.4.49)
-      c12: 2.0.1(magicast@0.3.5)
-      consola: 3.3.3
+      autoprefixer: 10.4.20(postcss@8.5.3)
+      c12: 3.0.2(magicast@0.3.5)
+      consola: 3.4.0
       defu: 6.1.4
-      h3: 1.13.1
+      h3: 1.15.1
       klona: 2.0.6
-      pathe: 2.0.1
-      postcss: 8.4.49
-      postcss-nesting: 13.0.1(postcss@8.4.49)
+      pathe: 2.0.3
+      postcss: 8.5.3
+      postcss-nesting: 13.0.1(postcss@8.5.3)
       tailwind-config-viewer: 2.0.4(tailwindcss@3.4.17)
       tailwindcss: 3.4.17
       ufo: 1.5.4
       unctx: 2.4.1
     transitivePeerDependencies:
       - magicast
-      - rollup
       - supports-color
       - ts-node
 
@@ -9144,16 +9134,6 @@ snapshots:
   async@3.2.6: {}
 
   at-least-node@1.0.0: {}
-
-  autoprefixer@10.4.20(postcss@8.4.49):
-    dependencies:
-      browserslist: 4.24.3
-      caniuse-lite: 1.0.30001689
-      fraction.js: 4.3.7
-      normalize-range: 0.1.2
-      picocolors: 1.1.1
-      postcss: 8.4.49
-      postcss-value-parser: 4.2.0
 
   autoprefixer@10.4.20(postcss@8.5.3):
     dependencies:
@@ -10595,19 +10575,6 @@ snapshots:
       uncrypto: 0.1.3
       unenv: 1.10.0
 
-  h3@1.13.1:
-    dependencies:
-      cookie-es: 1.2.2
-      crossws: 0.3.1
-      defu: 6.1.4
-      destr: 2.0.3
-      iron-webcrypto: 1.2.1
-      ohash: 1.1.4
-      radix3: 1.1.2
-      ufo: 1.5.4
-      uncrypto: 0.1.3
-      unenv: 1.10.0
-
   h3@1.14.0:
     dependencies:
       cookie-es: 1.2.2
@@ -10624,7 +10591,7 @@ snapshots:
   h3@1.15.1:
     dependencies:
       cookie-es: 1.2.2
-      crossws: 0.3.3
+      crossws: 0.3.4
       defu: 6.1.4
       destr: 2.0.3
       iron-webcrypto: 1.2.1
@@ -12263,8 +12230,6 @@ snapshots:
 
   pathe@2.0.0: {}
 
-  pathe@2.0.1: {}
-
   pathe@2.0.3: {}
 
   perfect-debounce@1.0.0: {}
@@ -12413,11 +12378,11 @@ snapshots:
       postcss: 8.5.3
       postcss-selector-parser: 6.1.2
 
-  postcss-nesting@13.0.1(postcss@8.4.49):
+  postcss-nesting@13.0.1(postcss@8.5.3):
     dependencies:
       '@csstools/selector-resolve-nested': 3.0.0(postcss-selector-parser@7.0.0)
       '@csstools/selector-specificity': 5.0.0(postcss-selector-parser@7.0.0)
-      postcss: 8.4.49
+      postcss: 8.5.3
       postcss-selector-parser: 7.0.0
 
   postcss-normalize-charset@7.0.0(postcss@8.5.3):
@@ -13566,7 +13531,7 @@ snapshots:
       acorn: 8.14.0
       estree-walker: 3.0.3
       magic-string: 0.30.17
-      unplugin: 2.1.2
+      unplugin: 2.2.0
 
   undici-types@6.20.0: {}
 
@@ -13793,7 +13758,7 @@ snapshots:
       anymatch: 3.1.3
       chokidar: 3.6.0
       destr: 2.0.3
-      h3: 1.14.0
+      h3: 1.15.1
       lru-cache: 10.4.3
       node-fetch-native: 1.6.6
       ofetch: 1.4.1
