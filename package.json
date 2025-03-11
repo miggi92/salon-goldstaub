@@ -31,7 +31,7 @@
     "@nuxt/devtools": "latest",
     "@nuxt/ui": "^2.21.1",
     "@nuxthq/studio": "^2.2.1",
-    "@nuxtjs/tailwindcss": "^6.13.1",
+    "@nuxtjs/tailwindcss": "^6.13.2",
     "@vite-pwa/nuxt": "^0.10.6",
     "eslint": "^9.22.0",
     "nuxt": "^3.16.0",
