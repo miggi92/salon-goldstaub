@@ -1,0 +1,1 @@
+import{aw as C,x as w,z as e,ax as x,ay as t,J as y,az as z}from"./CX_hufs9.js";const d=(n,c,p,u,g=!1)=>{const i=C(),a=w(),f=e(()=>{var r;const s=t(c),l=t(p),o=t(u);return y((s==null?void 0:s.strategy)||((r=a.ui)==null?void 0:r.strategy),o?{wrapper:o}:{},s||{},g?z(a.ui,n,{}):{},l||{})}),m=e(()=>x(i,["class"]));return{ui:f,attrs:m}};export{d as u};
