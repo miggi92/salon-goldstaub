@@ -29,7 +29,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^4.10.0",
     "@nuxt/devtools": "latest",
-    "@nuxt/ui": "^2.21.1",
+    "@nuxt/ui": "^3.0.0",
     "@nuxthq/studio": "^2.2.1",
     "@nuxtjs/tailwindcss": "^6.13.2",
     "@vite-pwa/nuxt": "^0.10.6",
