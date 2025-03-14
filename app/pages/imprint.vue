@@ -1,5 +1,9 @@
 <script setup lang="ts">
-import { appName } from '../constants'
+import { appName } from '../../constants'
+
+const { data: page } = await useAsyncData('imprint', () => {
+  return queryCollection('content').path('imprint').first()
+})
 </script>
 
 <template>
@@ -39,7 +43,7 @@ import { appName } from '../constants'
       <br>
 
       <div>
-        <ContentDoc path="/imprint" />
+        <ContentRenderer v-if="page" :value="page" />
       </div>
     </UPageBody>
   </UPage>

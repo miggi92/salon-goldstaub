@@ -15,12 +15,14 @@ const links = [{
 </script>
 
 <template>
-  <UFooter :links="links">
+  <UFooter>
     <template #left>
       Copyright © 2023 - {{ new Date().getFullYear() }} <ULink to="https://mgm12.dev" class="text-primary">
         MGM12
       </ULink>
     </template>
+
+    <UNavigationMenu :items="links" variant="link" />
 
     <template #top>
       <UFooterColumns>

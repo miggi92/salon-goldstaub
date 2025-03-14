@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { appName } from '../constants'
+import { appName } from '../../constants'
 
 const { $pwa } = useNuxtApp()
 const needRefresh = $pwa?.needRefresh || false
