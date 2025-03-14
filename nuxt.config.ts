@@ -5,6 +5,7 @@ import { pwa } from './config/pwa'
 export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: [],
+
   modules: [
     '@nuxt/content',
     '@nuxt/ui-pro',
@@ -12,15 +13,19 @@ export default defineNuxtConfig({
     '@nuxthq/studio',
     '@vite-pwa/nuxt',
   ],
+
   future: {
     compatibilityVersion: 4,
   },
+
   runtimeConfig: {
     public: {
       studioTokens: '',
     },
   },
+
   css: ['~/assets/css/main.css'],
   content,
   pwa,
+  compatibilityDate: '2025-03-14',
 })
