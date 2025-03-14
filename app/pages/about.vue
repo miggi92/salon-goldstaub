@@ -52,6 +52,17 @@ const attributes = [{
   class: 'col-span-3 row-span-1',
   icon: 'i-mdi-format-color-fill',
 }]
+const testimonial = ref({
+  user: {
+    name: 'Elena Köse',
+    description: 'Meiserfriseurin und Geschäftsführerin',
+    avatar: {
+      src: '/pictures/bild_meisterfriseurin.jpg',
+      alt: 'Elena Köse',
+    },
+  },
+  quote: '“Mein Beruf ist meine Berufung, nichts verfolge ich mit mehr Leidenschaft als diesen. Und ich liebe schönes Haar und die Arbeit mit Menschen.”',
+})
 </script>
 
 <template>
@@ -61,32 +72,41 @@ const attributes = [{
       <UPageHero
         title="Meisterfriseurin"
         description="Gestatten, Elena Köse, Ihre Meisterfriseurin."
-        align="left"
+        orientation="horizontal"
       >
         <LazyNuxtImg src="/pictures/bild_meisterfriseurin.jpg" alt="Meisterfriseurin" class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700" />
       </UPageHero>
-      <ULandingTestimonial
-        quote="Mein Beruf ist meine Berufung, nichts verfolge ich mit mehr Leidenschaft als diesen. Und ich liebe schönes Haar und die Arbeit mit Menschen. Deshalb fühlen sich auch Kinder richtig wohl bei mir."
-        card
-      />
-      <ULandingSection title="Vitae" description="Hier nun die wichtigsten Stationen meiner beruflichen Vitae" align="center">
-        <ULandingGrid>
-          <ULandingCard
+      <UPageCard
+        :description="testimonial.quote"
+        spotlight
+        spotlight-color="primary"
+      >
+        <template #footer>
+          <UUser v-bind="testimonial.user" />
+        </template>
+      </UPageCard>
+      <UPageSection title="Vitae" description="Hier nun die wichtigsten Stationen meiner beruflichen Vitae" align="center">
+        <UPageGrid>
+          <UPageCard
             v-for="(card, index) of vitae"
             :key="index"
             v-bind="card"
+            spotlight
+            spotlight-color="primary"
           />
-        </ULandingGrid>
-      </ULandingSection>
-      <ULandingSection title="Was mich noch auszeichnet" description="" align="center">
-        <ULandingGrid>
-          <ULandingCard
+        </UPageGrid>
+      </UPageSection>
+      <UPageSection title="Was mich noch auszeichnet" description="" align="center">
+        <UPageGrid>
+          <UPageCard
             v-for="(attribute, index) of attributes"
             :key="index"
             v-bind="attribute"
+            spotlight
+            spotlight-color="primary"
           />
-        </ULandingGrid>
-      </ULandingSection>
+        </UPageGrid>
+      </UPageSection>
     </UPageBody>
   </UPage>
 </template>
