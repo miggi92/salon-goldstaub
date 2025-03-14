@@ -4,10 +4,10 @@ import { pwa } from './config/pwa'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  extends: ['@nuxt/ui-pro'],
+  extends: [],
   modules: [
     '@nuxt/content',
-    '@nuxt/ui',
+    '@nuxt/ui-pro',
     '@nuxt/image',
     '@nuxthq/studio',
     '@vite-pwa/nuxt',
