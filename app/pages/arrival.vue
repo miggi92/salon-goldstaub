@@ -1,7 +1,7 @@
 <template>
   <UPage>
     <UPageHeader title="Anfahrt" />
-    <UPageContent>
+    <UPageBody>
       <div>
         <iframe
           class="w-full aspect-auto"
@@ -9,6 +9,6 @@
           style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
         />
       </div>
-    </UPageContent>
+    </UPageBody>
   </UPage>
 </template>

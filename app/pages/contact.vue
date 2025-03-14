@@ -31,15 +31,15 @@ async function onSubmit(event: FormSubmitEvent<any>) {
     <UPageBody>
       <div class="flex">
         <UForm :state="state" :schema="schema" class="space-y-4 w-fit" @submit="onSubmit">
-          <UFormGroup label="Name" name="name">
+          <UFormField label="Name" name="name">
             <UInput v-model="state.name" />
-          </UFormGroup>
-          <UFormGroup label="E-Mail" name="email">
+          </UFormField>
+          <UFormField label="E-Mail" name="email">
             <UInput v-model="state.email" type="email" />
-          </UFormGroup>
-          <UFormGroup label="Nachricht" name="message">
+          </UFormField>
+          <UFormField label="Nachricht" name="message">
             <UTextarea v-model="state.message" />
-          </UFormGroup>
+          </UFormField>
 
           <UButton type="submit" label="Abschicken" icon="i-mdi-email" />
         </UForm>
