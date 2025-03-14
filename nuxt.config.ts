@@ -24,7 +24,6 @@ export default defineNuxtConfig({
   },
 
   css: ['~/assets/css/main.css'],
-  content,
   pwa,
   compatibilityDate: '2025-03-14',
 })
