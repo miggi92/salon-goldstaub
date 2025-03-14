@@ -1,7 +1,7 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:0-20",
   "features": {
-    "ghcr.io/devcontainers-extra/features/pnpm": {}
+    "ghcr.io/devcontainers-extra/features/pnpm:2": {}
   },
   "customizations": {
     "vscode": {
@@ -17,5 +17,16 @@
       ]
     }
   },
-  "postCreateCommand": "pnpm i"
+  "postCreateCommand": "pnpm i",
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "pnpm i",
+  "postAttachCommand": "pnpm dev",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Application",
+      "onAutoForward": "openPreview"
+    }
+
+  }
 }
