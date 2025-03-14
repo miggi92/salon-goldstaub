@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { bookingURL } from '~/constants'
+import { bookingURL } from '~/app/constants'
 
 const links = [{
   label: 'Startseite',

@@ -3,7 +3,7 @@ import {
   appDescription,
   appName,
   appShortName,
-} from '../constants'
+} from '../app/constants'
 
 export const pwa: ModuleOptions = {
   registerType: 'autoUpdate',
