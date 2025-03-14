@@ -15,13 +15,11 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
-
-  runtimeConfig: {
-    public: {
-      studioTokens: '',
+  content: {
+    preview: {
+      api: 'https://api.nuxt.studio',
     },
   },
-
   css: ['~/assets/css/main.css'],
   pwa,
   compatibilityDate: '2025-03-14',
