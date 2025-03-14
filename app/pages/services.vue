@@ -1,35 +1,56 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData('services', () => queryContent('/services').findOne())
+const damenServices = [{
+  description: '',
+  title: 'Trijuven Haarverjüngung',
+}, {
+  description: '',
+  title: 'Waschen, Schneiden, Föhnen',
+}, {
+  description: '',
+  title: 'Pflege intensiv',
+}]
+
+const herrenServices = [{
+  description: '',
+  title: 'Schnitt incl. Styling und Beratung',
+}, {
+  description: '',
+  title: 'Seiten schneiden',
+}, {
+  description: '',
+  title: 'Shading',
+}, {
+  description: '',
+  title: 'Maschinen Haarschnitt',
+}]
 </script>
 
 <template>
-  <ULandingSection :title="page?.title" :description="page?.description">
+  <UPageSection title="Leistungen" description="Leistungen des Salon Goldstaub">
     <UPage>
-      <UPageHeader :title="page?.damen.title" />
+      <UPageHeader title="Damen" />
 
       <UPageBody>
         <UPageGrid>
-          <UPageCard v-for="(module, index) in page?.damen.cards" :key="index" v-bind="module" target="_blank">
-            <template #description>
-              <span class="line-clamp-2">{{ module.description }}</span>
-            </template>
-          </UPageCard>
+          <UPageCard
+            v-for="(module, index) in damenServices" :key="index" v-bind="module" :title="module.title" target="_blank" :description="module.description" spotlight
+            spotlight-color="primary"
+          />
         </UPageGrid>
       </UPageBody>
     </UPage>
 
     <UPage>
-      <UPageHeader :title="page?.herren.title" />
+      <UPageHeader title="Herren" />
 
       <UPageBody>
         <UPageGrid>
-          <UPageCard v-for="(module, index) in page?.herren.cards" :key="index" v-bind="module" target="_blank">
-            <template #description>
-              <span class="line-clamp-2">{{ module.description }}</span>
-            </template>
-          </UPageCard>
+          <UPageCard
+            v-for="(module, index) in herrenServices" :key="index" v-bind="module" :title="module.title" target="_blank" :description="module.description" spotlight
+            spotlight-color="primary"
+          />
         </UPageGrid>
       </UPageBody>
     </UPage>
-  </ULandingSection>
+  </UPageSection>
 </template>
