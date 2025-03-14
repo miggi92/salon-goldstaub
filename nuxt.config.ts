@@ -17,9 +17,7 @@ export default defineNuxtConfig({
       studioTokens: '',
     },
   },
-  ui: {
-    icons: ['simple-icons', 'mdi', 'streamline', 'game-icons'],
-  },
+  css: ['~/assets/css/main.css'],
   content,
   pwa,
 })
