@@ -1,0 +1,1 @@
+function i(e){return e.map(r=>{if(!r.children||typeof r.children=="string")return r.children||"";if(Array.isArray(r.children))return i(r.children);if(r.children.default)return i(r.children.default())}).join("")}function f(e){return Object.entries(e).reduce((r,[n,t])=>(r[n]=typeof t=="function"?t():t,r),{})}export{i as g,f as t};
