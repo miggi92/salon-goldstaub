@@ -12,6 +12,9 @@ export default defineNuxtConfig({
     '@nuxthq/studio',
     '@vite-pwa/nuxt',
   ],
+  future: {
+    compatibilityVersion: 4,
+  },
   runtimeConfig: {
     public: {
       studioTokens: '',
