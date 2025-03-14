@@ -61,10 +61,8 @@ jobs:
         run: echo $'\nautoImport=true\nmodules[]=@nuxthq/studio' >> .nuxtrc
 
       - name: Generate
-        run: npx nuxi generate
+        run: ${{ steps.pkgman.outputs.package_manager }} generate
         env:
-          NUXT_PUBLIC_STUDIO_API_URL: https://api.nuxt.studio
-          NUXT_PUBLIC_STUDIO_TOKENS: 8b74b9d599105e7e78e485afd13b6daa6e835e4205e8d64bf188016f3016c140
           NUXT_UI_PRO_LICENSE: ${{ secrets.NUXT_UI_PRO_LICENSE }}
 
       - name: Add .nojekyll file
