@@ -57,9 +57,6 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.pkgman.outputs.package_manager }} install
 
-      - name: Create .nuxtrc
-        run: echo $'\nautoImport=true\nmodules[]=@nuxthq/studio' >> .nuxtrc
-
       - name: Generate
         run: ${{ steps.pkgman.outputs.package_manager }} generate
         env:
