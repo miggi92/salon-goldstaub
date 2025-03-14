@@ -1,6 +1,4 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData('index', () => queryCollection('content').path('/').first())
-
 const links = ref([
   {
     label: 'Termin vereinbaren',
