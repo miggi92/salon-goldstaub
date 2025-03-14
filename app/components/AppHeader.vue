@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { bookingURL } from '~/app/constants'
+import { bookingURL } from '../../constants'
 
 const links = [{
   label: 'Startseite',
@@ -21,19 +21,21 @@ const links = [{
 </script>
 
 <template>
-  <UHeader :links="links">
-    <template #logo>
+  <UHeader>
+    <template #title>
       <div class="w-12 h-6 flex-no-shrink fill-current">
         <AppLogo />
       </div>
     </template>
 
+    <UNavigationMenu :items="links" />
+
     <template #right>
       <UColorModeButton />
     </template>
 
-    <template #panel>
-      <UAsideLinks :links="links" />
+    <template #body>
+      <UNavigationMenu :items="links" orientation="vertical" class="-mx-2.5" />
     </template>
   </UHeader>
 </template>

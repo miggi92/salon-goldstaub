@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { bookingURL } from '../constants'
+import { bookingURL } from '../../constants'
 
 await navigateTo(bookingURL, {
   external: true,
