@@ -32,7 +32,6 @@
     "@antfu/eslint-config": "^4.10.1",
     "@iconify-json/lucide": "^1.2.29",
     "@nuxt/devtools": "latest",
-    "@nuxthq/studio": "^2.2.1",
     "@nuxtjs/tailwindcss": "^6.13.2",
     "@vite-pwa/nuxt": "^0.10.6",
     "eslint": "^9.22.0",

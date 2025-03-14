@@ -10,7 +10,6 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/ui-pro',
     '@nuxt/image',
-    '@nuxthq/studio',
     '@vite-pwa/nuxt',
   ],
 
