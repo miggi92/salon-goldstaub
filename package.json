@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.10.1",
-    "@iconify-json/lucide": "^1.2.29",
+    "@iconify-json/lucide": "^1.2.33",
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "^6.13.2",
     "@vite-pwa/nuxt": "^0.10.6",
