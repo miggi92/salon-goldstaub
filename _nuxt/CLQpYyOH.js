@@ -1,1 +1,0 @@
-import{d as a,X as n,c as o,Y as s,Z as r,i as _}from"./CtxtWL-U.js";const l=a({__name:"booking",async setup(c){let e,t;return[e,t]=n(()=>s(r,{external:!0})),await e,t(),(i,p)=>(_(),o("div"))}});export{l as default};
