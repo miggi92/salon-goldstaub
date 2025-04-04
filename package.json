@@ -21,7 +21,7 @@
     "@iconify-json/streamline": "^1.2.2",
     "@nuxt/content": "^3.4.0",
     "@nuxt/image": "^1.10.0",
-    "@nuxt/kit": "^3.16.0",
+    "@nuxt/kit": "^3.16.2",
     "@nuxt/ui-pro": "^3.0.2",
     "@vite-pwa/assets-generator": "^1.0.0",
     "@vuelidate/core": "^2.0.3",
