@@ -17,7 +17,7 @@
   "dependencies": {
     "@iconify-json/game-icons": "^1.2.1",
     "@iconify-json/mdi": "^1.2.3",
-    "@iconify-json/simple-icons": "^1.2.30",
+    "@iconify-json/simple-icons": "^1.2.31",
     "@iconify-json/streamline": "^1.2.2",
     "@nuxt/content": "^3.4.0",
     "@nuxt/image": "^1.10.0",
@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.11.0",
-    "@iconify-json/lucide": "^1.2.34",
+    "@iconify-json/lucide": "^1.2.35",
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "^6.13.2",
     "@vite-pwa/nuxt": "^1.0.0",
