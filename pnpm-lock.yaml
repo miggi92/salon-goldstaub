@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@iconify-json/game-icons':
-        specifier: ^1.2.1
-        version: 1.2.1
+        specifier: ^1.2.2
+        version: 1.2.2
       '@iconify-json/mdi':
         specifier: ^1.2.3
         version: 1.2.3
@@ -1276,8 +1276,8 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@iconify-json/game-icons@1.2.1':
-    resolution: {integrity: sha512-JrKwJT+xmee87QRGIoUdR59fxMzqykS9NUnG7P0XVeznKwr3WkAw5IVWSQVQDLcN6+X3mdMFme3Hbhh6f0qTDw==}
+  '@iconify-json/game-icons@1.2.2':
+    resolution: {integrity: sha512-V2DeFX3BmC8IVkioNQwFfJ2upN7mqJbwsjTKdQUAza+NgkNt0oce+5OBZTUCkvQE7QvnSBSqzJTZZIZIjT/q8g==}
 
   '@iconify-json/lucide@1.2.39':
     resolution: {integrity: sha512-1BKCamEZRvArR7PErYCP4SZo9pAANJy6iQWpynI3GM8QKSQtWQgvw6usqGIFCQeJwFZHPOn2OcbDR4P56DyEaQ==}
@@ -8886,7 +8886,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@iconify-json/game-icons@1.2.1':
+  '@iconify-json/game-icons@1.2.2':
     dependencies:
       '@iconify/types': 2.0.0
 
