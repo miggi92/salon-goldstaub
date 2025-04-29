@@ -1,1 +1,0 @@
-import{R as a,Y as n,c as o,Z as s,$ as r,h as _}from"./sCIZpbRu.js";const l=a({__name:"booking",async setup(c){let e,t;return[e,t]=n(()=>s(r,{external:!0})),await e,t(),(i,p)=>(_(),o("div"))}});export{l as default};
