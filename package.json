@@ -21,7 +21,7 @@
     "@iconify-json/streamline": "^1.2.2",
     "@nuxt/content": "^3.5.1",
     "@nuxt/image": "^1.10.0",
-    "@nuxt/kit": "^3.17.2",
+    "@nuxt/kit": "^3.17.3",
     "@nuxt/ui-pro": "^3.1.1",
     "@vite-pwa/assets-generator": "^1.0.0",
     "@vuelidate/core": "^2.0.3",
@@ -35,7 +35,7 @@
     "@nuxtjs/tailwindcss": "^6.14.0",
     "@vite-pwa/nuxt": "^1.0.0",
     "eslint": "^9.26.0",
-    "nuxt": "^3.17.2",
+    "nuxt": "^3.17.3",
     "vue": "^3.5.13",
     "vue-router": "^4.5.1"
   },
