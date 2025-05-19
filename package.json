@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.2.0",
   "private": true,
-  "packageManager": "pnpm@10.10.0",
+  "packageManager": "pnpm@10.11.0",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -22,21 +22,21 @@
     "@nuxt/content": "^3.5.1",
     "@nuxt/image": "^1.10.0",
     "@nuxt/kit": "^3.17.3",
-    "@nuxt/ui-pro": "^3.1.1",
+    "@nuxt/ui-pro": "^3.1.2",
     "@vite-pwa/assets-generator": "^1.0.0",
     "@vuelidate/core": "^2.0.3",
     "@vuelidate/validators": "^2.0.4",
-    "tailwindcss": "^4.1.6"
+    "tailwindcss": "^4.1.7"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.13.0",
-    "@iconify-json/lucide": "^1.2.42",
+    "@antfu/eslint-config": "^4.13.1",
+    "@iconify-json/lucide": "^1.2.44",
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "^6.14.0",
-    "@vite-pwa/nuxt": "^1.0.0",
-    "eslint": "^9.26.0",
+    "@vite-pwa/nuxt": "^1.0.1",
+    "eslint": "^9.27.0",
     "nuxt": "^3.17.3",
-    "vue": "^3.5.13",
+    "vue": "^3.5.14",
     "vue-router": "^4.5.1"
   },
   "pnpm": {
