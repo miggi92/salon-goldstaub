@@ -1,0 +1,1 @@
+import{b1 as r,r as n,E as u}from"./D8QSBkC0.js";function c(t){const o=r({dir:n("ltr")});return u(()=>{var e;return(t==null?void 0:t.value)||((e=o.dir)==null?void 0:e.value)||"ltr"})}export{c as u};
