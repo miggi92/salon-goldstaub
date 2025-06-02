@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.2.0",
   "private": true,
-  "packageManager": "pnpm@10.11.0",
+  "packageManager": "pnpm@10.11.1",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -18,7 +18,7 @@
     "@iconify-json/game-icons": "^1.2.3",
     "@iconify-json/mdi": "^1.2.3",
     "@iconify-json/simple-icons": "^1.2.37",
-    "@iconify-json/streamline": "^1.2.4",
+    "@iconify-json/streamline": "^1.2.5",
     "@nuxt/content": "^3.5.1",
     "@nuxt/image": "^1.10.0",
     "@nuxt/kit": "^3.17.4",
