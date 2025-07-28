@@ -22,21 +22,21 @@
     "@nuxt/content": "^3.6.3",
     "@nuxt/image": "^1.10.0",
     "@nuxt/kit": "^3.17.7",
-    "@nuxt/ui-pro": "^3.2.0",
+    "@nuxt/ui-pro": "^3.3.0",
     "@vite-pwa/assets-generator": "^1.0.0",
     "@vuelidate/core": "^2.0.3",
     "@vuelidate/validators": "^2.0.4",
     "tailwindcss": "^4.1.11"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.17.0",
-    "@iconify-json/lucide": "^1.2.57",
+    "@antfu/eslint-config": "^4.19.0",
+    "@iconify-json/lucide": "^1.2.58",
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "^6.14.0",
     "@vite-pwa/nuxt": "^1.0.4",
-    "eslint": "^9.31.0",
+    "eslint": "^9.32.0",
     "nuxt": "^3.17.7",
-    "vue": "^3.5.17",
+    "vue": "^3.5.18",
     "vue-router": "^4.5.1"
   },
   "pnpm": {
