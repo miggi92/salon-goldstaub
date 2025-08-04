@@ -1,1 +1,0 @@
-import{L as a,U as n,c as o,V as s,W as r,h as _}from"./CPfm-jAU.js";const l=a({__name:"booking",async setup(c){let e,t;return[e,t]=n(()=>s(r,{external:!0})),await e,t(),(i,p)=>(_(),o("div"))}});export{l as default};
