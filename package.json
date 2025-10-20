@@ -17,7 +17,7 @@
   "dependencies": {
     "@iconify-json/game-icons": "^1.2.3",
     "@iconify-json/mdi": "^1.2.3",
-    "@iconify-json/simple-icons": "^1.2.54",
+    "@iconify-json/simple-icons": "^1.2.55",
     "@iconify-json/streamline": "^1.2.5",
     "@nuxt/content": "^3.7.1",
     "@nuxt/image": "^1.11.0",
@@ -27,7 +27,7 @@
     "@vuelidate/core": "^2.0.3",
     "@vuelidate/validators": "^2.0.4",
     "better-sqlite3": "^12.4.1",
-    "tailwindcss": "^4.1.14"
+    "tailwindcss": "^4.1.15"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.0.0",
