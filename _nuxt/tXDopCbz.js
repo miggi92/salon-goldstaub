@@ -1,1 +1,0 @@
-import{x as t,c,h as n,n as l,E as p,L as s}from"./COF8V4wo.js";const u={base:"border-t border-default my-12"},f={__name:"ProseHr",props:{class:{type:null,required:!1}},setup(e){const a=e,r=t(),o=p(()=>s({extend:s(u),...r.ui?.prose?.hr||{}}));return(m,i)=>(n(),c("hr",{class:l(o.value({class:a.class}))},null,2))}};export{f as default};

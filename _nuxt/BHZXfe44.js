@@ -1,1 +1,0 @@
-import{x as r,c,h as l,D as p,n as u,E as i,L as s}from"./COF8V4wo.js";const m={base:""},g={__name:"ProseStrong",props:{class:{type:null,required:!1}},setup(e){const a=e,o=r(),t=i(()=>s({extend:s(m),...o.ui?.prose?.strong||{}}));return(n,f)=>(l(),c("strong",{class:u(t.value({class:a.class}))},[p(n.$slots,"default")],2))}};export{g as default};
