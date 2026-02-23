@@ -1,1 +1,0 @@
-import{x as l,c as p,D as r,n as c,K as u,h as i,L as s}from"./CgpRnVS2.js";const m={base:"my-5 leading-7 text-pretty"},_={__name:"ProseP",props:{class:{type:null,required:!1}},setup(e){const a=e,t=l(),o=u(()=>s({extend:s(m),...t.ui?.prose?.p||{}}));return(n,d)=>(i(),p("p",{class:c(o.value({class:a.class}))},[r(n.$slots,"default")],2))}};export{_ as default};
