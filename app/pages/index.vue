@@ -45,7 +45,7 @@ const formatDate = (date: string) => {
       <UMarquee
       pause-on-hover
       reverse
-      :overlay="false"
+      :overlay="true"
       :ui="{ root: '[--gap:--spacing(4)]', content: 'w-auto py-1' }"
     >
       <UPageCard
