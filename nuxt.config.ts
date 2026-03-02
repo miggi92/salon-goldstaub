@@ -11,10 +11,6 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@vite-pwa/nuxt',
   ],
-
-  future: {
-    compatibilityVersion: 4,
-  },
   content: {
     preview: {
       api: 'https://api.nuxt.studio',
