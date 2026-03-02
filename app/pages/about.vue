@@ -6,16 +6,9 @@ const { data: vitae, pending: vitaePending } = await useAsyncData('vitae', () =>
 const { data: attributes, pending: attributesPending } = await useAsyncData('attributes', () => {
   return queryCollection('data').where('stem', '=', 'data/employees/elena/attributes').first()
 })
-const testimonial = ref({
-  user: {
-    name: 'Elena Köse',
-    description: 'Meiserfriseurin und Geschäftsführerin',
-    avatar: {
-      src: '/pictures/bild_meisterfriseurin.jpg',
-      alt: 'Elena Köse',
-    },
-  },
-  quote: '“Mein Beruf ist meine Berufung, nichts verfolge ich mit mehr Leidenschaft als diesen. Und ich liebe schönes Haar und die Arbeit mit Menschen.”',
+
+const { data: profile, pending: profilePending } = await useAsyncData('profile', () => {
+  return queryCollection('data').where('stem', '=', 'data/employees/elena/profile').first()
 })
 </script>
 
@@ -24,19 +17,19 @@ const testimonial = ref({
     <UPageHeader title="Über uns" />
     <UPageBody>
       <UPageHero
-        title="Meisterfriseurin"
-        description="Gestatten, Elena Köse, Ihre Meisterfriseurin."
+        :title="profile?.meta?.title_short"
+        :description="`Gestatten, ${profile?.meta?.name}, Ihre ${profile?.meta?.title_short}.`"
         orientation="horizontal"
       >
-        <LazyNuxtImg src="/pictures/bild_meisterfriseurin.jpg" alt="Meisterfriseurin" class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700" />
+        <LazyNuxtImg :src="profile?.meta?.picture" :alt="profile?.meta?.title_short" class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700" />
       </UPageHero>
       <UPageCard
-        :description="testimonial.quote"
+        :description="profile?.meta?.testimonial?.quote"
         spotlight
         spotlight-color="primary"
       >
         <template #footer>
-          <UUser v-bind="testimonial.user" />
+          <UUser :avatar="{ src: profile?.meta?.picture, alt: profile?.meta?.title }" :name="profile?.meta?.name" :description="profile?.meta?.title" />
         </template>
       </UPageCard>
       <UPageSection title="Vitae" description="Hier nun die wichtigsten Stationen meiner beruflichen Vitae" align="center">
