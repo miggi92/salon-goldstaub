@@ -1,1 +1,12 @@
-[]
+[{
+    "name": "Elisabeth",
+    "rating": 5,
+    "quote": "Ich war das erste Mal bei Elena und bin total begeistert. Sie hat sich richtig viel Zeit genommen und mich super beraten. Man fühlt sich gleich total wohl bei ihr und man merkt sehr schnell das sie ihr Handwerk versteht. Bin mega zufrieden mit meinem neuen Haarschnitt und wollte mich auch für die Stylingtipps bei ihr bedanken, die sie mir in aller Ruhe gezeigt hat. Hab meinen Friseur des Vertrauens endlich gefunden und bin sehr happy.",
+    "date": "2025-03-29"
+},
+{
+    "name": "Sonja",
+    "rating": 5,
+    "quote": "Danke - von Herzen 💕 Jeder Besuch im Salon ist ein echtes Wohlfühlerlebnis – super Beratung, liebevolle Betreuung und ein Ergebnis, das einfach begeistert. Man merkt, dass Elena mit absoluter Leidenschaft arbeitet!",
+    "date": "2025-10-21"
+}]
