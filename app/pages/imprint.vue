@@ -2,7 +2,7 @@
 import { appName } from '../../constants'
 
 const { data: page } = await useAsyncData('imprint', () => {
-  return queryCollection('content').path('imprint').first()
+  return queryCollection('pages').path('imprint').first()
 })
 </script>
 

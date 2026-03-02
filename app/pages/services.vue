@@ -1,28 +1,13 @@
 <script setup lang="ts">
-const damenServices = [{
-  description: '',
-  title: 'Trijuven Haarverjüngung',
-}, {
-  description: '',
-  title: 'Waschen, Schneiden, Föhnen',
-}, {
-  description: '',
-  title: 'Pflege intensiv',
-}]
+const { data: womenServices, pending: womenPending } = await useAsyncData('women-services', () => {
+  return queryCollection('data').where('stem', '=', 'data/services/women').first()
+})
 
-const herrenServices = [{
-  description: '',
-  title: 'Schnitt incl. Styling und Beratung',
-}, {
-  description: '',
-  title: 'Seiten schneiden',
-}, {
-  description: '',
-  title: 'Shading',
-}, {
-  description: '',
-  title: 'Maschinen Haarschnitt',
-}]
+const { data: menServices, pending: menPending } = await useAsyncData('men-services', () => {
+  return queryCollection('data').where('stem', '=', 'data/services/men').first()
+})
+
+const isLoading = computed(() => womenPending.value || menPending.value)
 </script>
 
 <template>
@@ -33,7 +18,7 @@ const herrenServices = [{
       <UPageBody>
         <UPageGrid>
           <UPageCard
-            v-for="(module, index) in damenServices" :key="index" v-bind="module" :title="module.title" target="_blank" :description="module.description" spotlight
+            v-for="(service, index) in womenServices?.meta?.body" :key="index" v-bind="service" target="_blank" spotlight
             spotlight-color="primary"
           />
         </UPageGrid>
@@ -46,7 +31,7 @@ const herrenServices = [{
       <UPageBody>
         <UPageGrid>
           <UPageCard
-            v-for="(module, index) in herrenServices" :key="index" v-bind="module" :title="module.title" target="_blank" :description="module.description" spotlight
+            v-for="(service, index) in menServices?.meta?.body" :key="index" v-bind="service" target="_blank" spotlight
             spotlight-color="primary"
           />
         </UPageGrid>
