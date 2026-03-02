@@ -30,7 +30,7 @@
     "tailwindcss": "^4.2.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^6.7.3",
+    "@antfu/eslint-config": "^7.6.1",
     "@iconify-json/lucide": "^1.2.93",
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "^6.14.0",
