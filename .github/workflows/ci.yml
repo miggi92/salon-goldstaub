@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: Setup pnpm env 🏗
-        uses: pnpm/action-setup@v4.4.0
+        uses: pnpm/action-setup@v6.0.10
 
       - name: Setup node env 🏗
         uses: actions/setup-node@v6
